@@ -50,7 +50,7 @@ install:
 # - ps: $env:TEST_PORT = "COM1";
 
 build_script:
-- npm install --build-from-source
+- npm install
 
 test_script:
 - ps: >
